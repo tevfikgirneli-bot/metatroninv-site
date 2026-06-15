@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOT — Support</title>
+<meta name="description" content="Support for MOT — Moment of Truth.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter+Tight:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0A0A0A; --ikb:#002FA8; --ink:#F4F4F2; --ink-mut:#9A9A95;
+    --accent:#C8884A; --line:rgba(255,255,255,0.08);
+    --s1:8px; --s2:13px; --s3:21px; --s4:34px; --s5:55px; --s6:89px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:'Inter Tight',system-ui,-apple-system,sans-serif;
+    line-height:1.618; padding:var(--s6) var(--s3);
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:618px;margin:0 auto}
+  .brandmark{display:flex;align-items:center;gap:14px;margin-bottom:var(--s5);
+    padding-bottom:var(--s3);border-bottom:1px solid var(--line)}
+  .brandmark svg{width:40px;height:40px;filter:drop-shadow(0 0 12px rgba(0,47,168,0.7))}
+  .brandmark .txt{font-family:'Fraunces',serif;font-weight:500;font-size:19px;letter-spacing:.01em}
+  .brandmark .txt span{color:var(--ink-mut);font-family:'Inter Tight';font-weight:300;font-size:13px;display:block;letter-spacing:.04em}
+  h1{font-family:'Fraunces',serif;font-weight:500;font-size:clamp(28px,5vw,40px);
+    letter-spacing:-.01em;margin-bottom:var(--s4);line-height:1.1}
+  .contact-card{padding:var(--s4) var(--s3);background:rgba(0,47,168,0.08);
+    border:1px solid rgba(0,47,168,0.25);border-radius:14px;margin-bottom:var(--s5);text-align:center}
+  .contact-card .label{color:var(--ink-mut);font-size:13px;letter-spacing:.18em;
+    text-transform:uppercase;margin-bottom:var(--s2)}
+  .contact-card a{color:var(--accent);text-decoration:none;font-size:clamp(18px,3vw,22px);
+    font-weight:400;border-bottom:1px solid rgba(200,136,74,0.4);padding-bottom:2px}
+  .contact-card a:hover{border-color:var(--accent)}
+  .contact-card .note{color:var(--ink-mut);font-size:14px;font-weight:300;margin-top:var(--s3)}
+  h2{font-family:'Fraunces',serif;font-weight:500;font-size:clamp(20px,3vw,24px);
+    margin-top:var(--s4);margin-bottom:var(--s2);letter-spacing:-.005em}
+  p{color:var(--ink);margin-bottom:var(--s3);font-weight:300;font-size:16px}
+  p strong{font-weight:500}
+  a.inline{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(200,136,74,0.35)}
+  a.inline:hover{border-color:var(--accent)}
+  footer{margin-top:var(--s5);padding-top:var(--s3);border-top:1px solid var(--line);
+    color:var(--ink-mut);font-size:13px;font-weight:300;letter-spacing:.04em}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brandmark">
+      <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#0B3FD4" stroke-width="3" stroke-opacity="0.85" stroke-linecap="round">
+          <line x1="500" y1="500" x2="500" y2="340"/><line x1="500" y1="500" x2="361.436" y2="420"/><line x1="500" y1="500" x2="361.436" y2="580"/><line x1="500" y1="500" x2="500" y2="660"/><line x1="500" y1="500" x2="638.564" y2="580"/><line x1="500" y1="500" x2="638.564" y2="420"/><line x1="500" y1="340" x2="638.564" y2="420"/><line x1="638.564" y1="420" x2="638.564" y2="580"/><line x1="638.564" y1="580" x2="500" y2="660"/><line x1="500" y1="660" x2="361.436" y2="580"/><line x1="361.436" y1="580" x2="361.436" y2="420"/><line x1="361.436" y1="420" x2="500" y2="340"/>
+        </g>
+        <g fill="none" stroke="#1A4FE0" stroke-width="6">
+          <circle cx="500" cy="500" r="78"/><circle cx="500" cy="340" r="78"/><circle cx="361.436" cy="420" r="78"/><circle cx="361.436" cy="580" r="78"/><circle cx="500" cy="660" r="78"/><circle cx="638.564" cy="580" r="78"/><circle cx="638.564" cy="420" r="78"/>
+        </g>
+      </svg>
+      <div class="txt">MOT<span>Moment of Truth</span></div>
+    </div>
+
+    <h1>Support</h1>
+
+    <div class="contact-card">
+      <div class="label">Get in touch</div>
+      <a href="mailto:tevfik@metatroninv.com">tevfik@metatroninv.com</a>
+      <p class="note">A real person reads every message. We usually reply within a couple of days.</p>
+    </div>
+
+    <h2>Restoring a purchase</h2>
+    <p>If you bought the full version and it isn't showing up, like on a new phone, open MOT and tap <strong>Restore Purchases</strong>. Purchases are tied to your Apple ID, so make sure you're signed in with the same one you used to buy. If it still doesn't restore, email us and we'll sort it out.</p>
+
+    <h2>Your data and privacy</h2>
+    <p>MOT works entirely on your device. There are no accounts and no servers, so your questions, readings, and journal never leave your phone. Full details are in our <a class="inline" href="/mot/privacy.html">Privacy Policy</a>.</p>
+
+    <h2>Found a bug, or have an idea?</h2>
+    <p>We'd genuinely like to hear it. Email <a class="inline" href="mailto:tevfik@metatroninv.com">tevfik@metatroninv.com</a> with what happened (and your device model, if it's a bug) and we'll look into it.</p>
+
+    <footer>&copy; 2026 Metatron Inventions &middot; MOT — Moment of Truth</footer>
+  </div>
+</body>
+</html>
